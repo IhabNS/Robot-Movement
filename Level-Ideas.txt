@@ -1,0 +1,8 @@
+Function to move the robot to specified coordinates: moveRobot(7, 8) <--- this will move him to 7x, 8y coordinates of the grid.
+Diagonal batteries: DiagonalBatter(1) will make the robot draw a diagonal line of batteries along the whole grid. The number specifies what diagonal out of 4 will be drawn.
+Draw a square all around, this will leave batteries along all the edges of the grid: drawSquare()
+Draw a square of specified side length: drawSquare(7, 2) <--- Here 7 means the square will be 7x7 on the grid, and the second number (2) represents the upper-left starting point of the square.
+Pick up all batteries: pickBatteries() will make the robot go through the whole map in order to pick all the batteries.
+Checkers Pattern: checkersDraw() will make the robot draw a checkers pattern using batteries. It should work on all grid sizes.
+BOSS Challenge: storeBatteries(5) will make the robot store exactly 9 batteries whose positions are randomly generated across the grid in a 3x3 square with a starting x-position specified in the function (5 in this case)
+CONSIDERATIONS: The solutions should be proof and perhaps there should be some additional conditions to make them harder (7. could limit the capacity of the robot in order to allow him to carry only one battery at a time.) The solutions should also work on all grid sizes, 5x5, 13x13, 21x21 (small, medium and big).
